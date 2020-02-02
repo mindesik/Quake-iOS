@@ -95,6 +95,12 @@ class GameControllerSetup: NSObject
                     
                 }
                 
+                remote!.extendedGamepad!.leftTrigger.pressedChangedHandler = { (button: GCControllerButtonInput, value: Float, pressed: Bool) -> () in
+                    
+                    Sys_Key_Event(32, qboolean(pressed ? 1 : 0)) // K_ENTER, true / false
+                    
+                }
+                
                 remote!.extendedGamepad!.rightTrigger.pressedChangedHandler = { (button: GCControllerButtonInput, value: Float, pressed: Bool) -> () in
                     
                     Sys_Key_Event(133, qboolean(pressed ? 1 : 0)) // K_CTRL, true / false
