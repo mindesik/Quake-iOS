@@ -85,13 +85,13 @@ class GameControllerSetup: NSObject
                 
                 remote!.extendedGamepad!.rightThumbstick.xAxis.valueChangedHandler = { (button: GCControllerAxisInput, value: Float) -> () in
                     
-                    in_rollangle = value
+                    in_rollangle = value / 2.5
                     
                 }
                 
                 remote!.extendedGamepad!.rightThumbstick.yAxis.valueChangedHandler = { (button: GCControllerAxisInput, value: Float) -> () in
                     
-                    in_pitchangle = -value
+                    in_pitchangle = -value / 2.5
                     
                 }
                 
