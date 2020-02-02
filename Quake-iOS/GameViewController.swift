@@ -116,6 +116,12 @@ class GameViewController: GLKViewController, GLKViewControllerDelegate
         
         if !joysticksInitialized {
             
+            var alpha = CGFloat(1)
+            
+            if defaults.bool(forKey: "hideControls") {
+                alpha = 0
+            }
+            
             let rect = view.frame
             let size = CGSize(width: 100.0, height: 100.0)
             let joystick1Frame = CGRect(origin: CGPoint(x: 50.0,
@@ -127,7 +133,8 @@ class GameViewController: GLKViewController, GLKViewControllerDelegate
             view.addSubview(joystick1)
             
             joystick1.movable = false
-            joystick1.alpha = 0.5
+            joystick1.alpha = alpha
+            
             joystick1.baseAlpha = 0.5 // let the background bleed thru the base
             joystick1.handleTintColor = UIColor.darkGray // Colorize the handle
             
@@ -136,7 +143,7 @@ class GameViewController: GLKViewController, GLKViewControllerDelegate
             fireButton.setBackgroundImage(UIImage(named: "JoyStickBase")!, for: .normal)
             fireButton.addTarget(self, action: #selector(firePressed), for: .touchDown)
             fireButton.addTarget(self, action: #selector(fireReleased), for: .touchUpInside)
-            fireButton.alpha = 0.5
+            fireButton.alpha = alpha
             
             view.addSubview(fireButton)
             
@@ -145,7 +152,7 @@ class GameViewController: GLKViewController, GLKViewControllerDelegate
             jumpButton.setBackgroundImage(UIImage(named: "JoyStickBase")!, for: .normal)
             jumpButton.addTarget(self, action: #selector(jumpPressed), for: .touchDown)
             jumpButton.addTarget(self, action: #selector(jumpReleased), for: .touchUpInside)
-            jumpButton.alpha = 0.5
+            jumpButton.alpha = alpha
             
             view.addSubview(jumpButton)
             

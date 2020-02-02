@@ -90,6 +90,8 @@
 		6D9F03FE1CE54246009AF81F /* sv_move.c in Sources */ = {isa = PBXBuildFile; fileRef = 2839AE5F1C5D6FFD00CEC48E /* sv_move.c */; };
 		6D9F03FF1CE54403009AF81F /* gl_mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 288781551CD8406100AF4F24 /* gl_mesh.c */; };
 		8EF9274923E626A200BA2B93 /* id1 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF9274823E626A200BA2B93 /* id1 */; };
+		8EF9274B23E637C900BA2B93 /* hipnotic in Resources */ = {isa = PBXBuildFile; fileRef = 8EF9274A23E637C900BA2B93 /* hipnotic */; };
+		8EF9274D23E637E800BA2B93 /* rogue in Resources */ = {isa = PBXBuildFile; fileRef = 8EF9274C23E637E800BA2B93 /* rogue */; };
 		A12122E320EAF0EF0036F782 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12122E220EAF0EF0036F782 /* SelectLevelViewController.swift */; };
 		A12122E420EAF0EF0036F782 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12122E220EAF0EF0036F782 /* SelectLevelViewController.swift */; };
 		A13EC59720EA672F00CEB727 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EC59620EA672F00CEB727 /* Enums.swift */; };
@@ -412,6 +414,8 @@
 		6D9F03F71CE52ADB009AF81F /* gl_vidios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gl_vidios.c; sourceTree = "<group>"; };
 		6D9F03FB1CE5345A009AF81F /* net_ios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net_ios.c; sourceTree = "<group>"; };
 		8EF9274823E626A200BA2B93 /* id1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = id1; sourceTree = "<group>"; };
+		8EF9274A23E637C900BA2B93 /* hipnotic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hipnotic; sourceTree = "<group>"; };
+		8EF9274C23E637E800BA2B93 /* rogue */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rogue; sourceTree = "<group>"; };
 		A12122E220EAF0EF0036F782 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
 		A13EC59620EA672F00CEB727 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		A13EC59920EA67B200CEB727 /* GameOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOptionsViewController.swift; sourceTree = "<group>"; };
@@ -519,6 +523,8 @@
 		2839AD351C5D6E4B00CEC48E = {
 			isa = PBXGroup;
 			children = (
+				8EF9274C23E637E800BA2B93 /* rogue */,
+				8EF9274A23E637C900BA2B93 /* hipnotic */,
 				8EF9274823E626A200BA2B93 /* id1 */,
 				EFA69186850D4E8E75706323 /* Frameworks */,
 				2839AD411C5D6EF700CEC48E /* Products */,
@@ -917,6 +923,7 @@
 				2817C7A71CED6555000E491D /* gl_noalphatextprogram.vsh in Resources */,
 				28C4FA791CE79617001CF82D /* gl_coloredpolygonnotextureprogram.vsh in Resources */,
 				28C4FA831CE79617001CF82D /* gl_textprogram.vsh in Resources */,
+				8EF9274B23E637C900BA2B93 /* hipnotic in Resources */,
 				2817C7AB1CED72C0000E491D /* gl_alphapolygon1textureprogram.vsh in Resources */,
 				288781451CD83E0800AF4F24 /* Assets.xcassets in Resources */,
 				2891B10F1CFBFA720005377F /* Settings.bundle in Resources */,
@@ -926,6 +933,7 @@
 				28C4FA7B1CE79617001CF82D /* gl_fillprogram.vsh in Resources */,
 				28E641211D16F7B200FF3D8F /* gl_intensitypolygon1textureprogram.vsh in Resources */,
 				28C4FA851CE79617001CF82D /* gl_tintedpolygon1textureprogram.vsh in Resources */,
+				8EF9274D23E637E800BA2B93 /* rogue in Resources */,
 				2817C7A61CED6555000E491D /* gl_noalphatextprogram.fsh in Resources */,
 				28C4FA771CE79617001CF82D /* gl_coloredpolygon1textureprogram.vsh in Resources */,
 			);
