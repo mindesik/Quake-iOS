@@ -170,8 +170,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU PAUSED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SlC-2E-k6d">
-                                <rect key="frame" x="293.66666666666669" y="20.000000000000004" width="225.00000000000006" height="35.333333333333343"/>
-                                <fontDescription key="fontDescription" name="DpQuake" family="DpQuake" pointSize="30"/>
+                                <rect key="frame" x="316" y="20" width="180.33333333333337" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -186,7 +186,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bkb-oU-JWW">
-                                <rect key="frame" x="344" y="63.333333333333343" width="124" height="90"/>
+                                <rect key="frame" x="344" y="64" width="124" height="90"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKT-QH-1d7">
                                         <rect key="frame" x="1" y="0.0" width="122" height="41"/>
@@ -221,7 +221,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="RwI-Fd-ufl">
-                                <rect key="frame" x="204.33333333333334" y="183.33333333333334" width="403.33333333333326" height="31"/>
+                                <rect key="frame" x="204.33333333333334" y="184" width="403.33333333333326" height="31"/>
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9FM-Fl-ZE6">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -239,7 +239,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xsh-hF-PFR">
-                                <rect key="frame" x="204.33333333333337" y="235.33333333333334" width="235" height="31.000000000000028"/>
+                                <rect key="frame" x="204.33333333333337" y="236" width="235" height="31"/>
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fZV-px-EkC">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -257,7 +257,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3HA-yS-HzZ">
-                                <rect key="frame" x="204.33333333333337" y="287.33333333333331" width="199.66666666666663" height="31"/>
+                                <rect key="frame" x="204.33333333333337" y="288" width="199.66666666666663" height="31"/>
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vHf-FS-ags">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -301,7 +301,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XG6-je-GoP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="D1U-YH-5pn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3989" y="348"/>
+            <point key="canvasLocation" x="3988.6699507389162" y="348"/>
         </scene>
         <!--Select Episode View Controller-->
         <scene sceneID="R6C-BT-8E8">
